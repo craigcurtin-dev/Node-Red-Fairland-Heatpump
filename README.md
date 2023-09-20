@@ -1,3 +1,16 @@
+# Node-Red-Fairland-Heatpump-Modbus
+
+Taken from work done by others (listed below) that has looped around from my initial work on using Tuya on these Fairland derivative heatpump, through to discovering Modbus and the modbus registers as supplied by Eric@fairland.cn
+This has now come full circle where the modbus registers where taken by Domoticz users, and use to write a python interface using Protoss Pw11 WIFI to Modbus interface devices.
+
+As I run Node-red under Ubuntu on a Virtual Machine (ESXi) i have no reasonable access to Serial ports. I will therefore be using the Protoss device to attach directly to the Motherboard as control the unit - this will supersed the current control through 
+tuyaapi and localtuya 
+
+First contribution is a video showing how to open up the unit - i have a Fairland 23Kw single phase Australian Top Discharge - sold by Summerwave under the name Inver-X
+
+
+
+
 # ESP-Home-Fairland-Heatpump
 
 I'd like to share my approach to control a Fairland made heatpump directly via modbus not depending on Tuya with homeassistant. My heatpump is an IPS Pro model sold by Pool Systems which seems to be quite similar to the InverX series by Fairland directly. 
